@@ -1,0 +1,23 @@
+ABAIXO DO SETUP
+
+
+function setup() 
+{
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  if(isMobile){
+    canW = displayWidth; 
+    canH = displayHeight; 
+    createCanvas(displayWidth+80, displayHeight);
+  } 
+  else {
+    canW = windowWidth; 
+    canH = windowHeight; 
+    createCanvas(windowWidth, windowHeight);
+  }
+
+
+----/
+INDEX ( ABAIXO DE LINK)
+
+
+<meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=0.825,minimum-scale=0.8,width=device-width">
